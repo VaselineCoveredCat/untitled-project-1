@@ -69,3 +69,8 @@ main > div > button:hover {
     align-items: center;
     column-gap: 1vw;
 }
+
+#signin {
+    background-color: #00BFA5;
+    color: #212121;
+}
