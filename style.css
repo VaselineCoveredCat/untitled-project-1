@@ -11,3 +11,13 @@ body {
     display: grid;
     grid-template-rows: auto 1fr auto;
 }
+
+.nav {
+    margin-right: 1vw;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 1vw;
+}
