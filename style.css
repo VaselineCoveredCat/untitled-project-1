@@ -97,3 +97,17 @@ footer {
     background-color: #00BFA5;
     color: #212121;
 }
+
+@media (max-width: 500px) {
+    body {
+        font-size: 0.8em;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .footer-left, .footer-right {
+        justify-content: center;
+    }
+}
