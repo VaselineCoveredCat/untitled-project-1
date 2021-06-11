@@ -75,6 +75,24 @@ footer {
     column-gap: 1vw;
 }
 
+.footer-left {
+    color: #00BFA5;
+    list-style: none;
+    margin-left: 1vw;
+    padding: 0;
+    display: flex;
+    column-gap: 3vmin;
+}
+
+.footer-right {
+    color: #00BFA5;
+    list-style: none;
+    margin-right: 1vw;
+    padding: 0;
+    display: flex;
+    column-gap: 3vmin;
+}
+
 #signin {
     background-color: #00BFA5;
     color: #212121;
