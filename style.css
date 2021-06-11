@@ -41,6 +41,10 @@ input {
     padding: 10px 20px;
 }
 
+input:hover, input:focus {
+    border: 2px solid #00BFA5;
+}
+
 main > div > button {
     background-color: #424242;
     color: #FAFAFA;
