@@ -54,6 +54,11 @@ main > div > button:hover {
     background-color: #616161;
 }
 
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
 .container {
     min-height: 100vh;
     display: grid;
