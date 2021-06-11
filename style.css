@@ -30,6 +30,17 @@ main {
     row-gap: 4vh;
 }
 
+input {
+    background-color: #424242;
+    color: #FAFAFA;
+    width: 50%;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    outline: none;
+    font-size: 1em;
+    padding: 10px 20px;
+}
+
 main > div > button {
     background-color: #424242;
     color: #FAFAFA;
