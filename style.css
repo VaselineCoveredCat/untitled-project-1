@@ -30,6 +30,15 @@ main {
     row-gap: 5vh;
 }
 
+main > div > button {
+    background-color: #424242;
+    color: #FAFAFA;
+}
+
+main > div > button:hover {
+    background-color: #616161;
+}
+
 .container {
     min-height: 100vh;
     display: grid;
