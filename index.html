@@ -1,60 +1,459 @@
 <!DOCTYPE html>
 <html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap"
+    />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <title>Untitled Project 1</title>
+  </head>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="author" content="Firas Hasnadong">
-    <meta name="description" content="The odin project first assignment.">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <body>
+    <header class="grid grid-1">
+      <picture class="col-1-1 row-1-1" aria-hidden="true">
+        <source
+          media="(min-resolution: 144dpi) and (min-width: 1920px), (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1920px)"
+          srcset="
+            https://images.unsplash.com/photo-1581284825412-fdff43fe80f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MzF8NFFqUUZza3hnMmt8fGVufDB8fHx8&auto=format&fit=crop&w=1920&dpr=2&q=60
+          "
+        />
+        <source
+          media="(min-resolution: 144dpi) and (min-width: 1280px), (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1280px)"
+          srcset="
+            https://images.unsplash.com/photo-1581284825412-fdff43fe80f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MzF8NFFqUUZza3hnMmt8fGVufDB8fHx8&auto=format&fit=crop&w=1280&dpr=2&q=60
+          "
+        />
+        <source
+          media="(min-resolution: 144dpi) and (min-width: 960px), (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 960px)"
+          srcset="
+            https://images.unsplash.com/photo-1581284825412-fdff43fe80f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MzF8NFFqUUZza3hnMmt8fGVufDB8fHx8&auto=format&fit=crop&w=960&dpr=2&q=60
+          "
+        />
+        <source
+          media="(min-resolution: 144dpi) and (min-width: 240px), (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 240px)"
+          srcset="
+            https://images.unsplash.com/photo-1581284825412-fdff43fe80f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MzF8NFFqUUZza3hnMmt8fGVufDB8fHx8&auto=format&fit=crop&w=240&dpr=2&q=60
+          "
+        />
+        <source
+          media="(min-width: 1920px)"
+          srcset="
+            https://images.unsplash.com/photo-1581284825412-fdff43fe80f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MzF8NFFqUUZza3hnMmt8fGVufDB8fHx8&auto=format&fit=crop&w=1920&q=60
+          "
+        />
+        <source
+          media="(min-width: 1280px)"
+          srcset="
+            https://images.unsplash.com/photo-1581284825412-fdff43fe80f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MzF8NFFqUUZza3hnMmt8fGVufDB8fHx8&auto=format&fit=crop&w=1280&q=60
+          "
+        />
+        <source
+          media="(min-width: 960px)"
+          srcset="
+            https://images.unsplash.com/photo-1581284825412-fdff43fe80f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MzF8NFFqUUZza3hnMmt8fGVufDB8fHx8&auto=format&fit=crop&w=960&q=60
+          "
+        />
+        <img
+          class="aspect-1-1 sm-aspect-5-4 md-aspect-16-9 object-left"
+          src="https://images.unsplash.com/photo-1581284825412-fdff43fe80f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MzF8NFFqUUZza3hnMmt8fGVufDB8fHx8&auto=format&fit=crop&w=240&q=60"
+          alt=""
+          decoding="async"
+        />
+      </picture>
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
-    <link rel="stylesheet" href="style.css">
+      <h1 class="col-1-1 row-1-1 m-4 lg-m-6 self-end uppercase">
+        High<br />
+        <hr class="border-2" />
+        Fashion
+      </h1>
+    </header>
 
-    <title>Google</title>
-</head>
+    <main>
+      <article class="m-4 lg-m-6">
+        <h2 class="sr-only">The Make Up Polishes</h2>
+        <p class="mb-4 lg-mb-6 font-bold text-h5 md-w-50">
+          A unicorn is a woman that isn't too worried about it, just curious.
+          Also, I got a date with a woman that made fun of my life. So it comes
+          down to one thing, if you are seeing someone and that was part of the
+          group again. It's really about showing you are putting effort into
+          keeping the interaction going, that's a good sign.
+        </p>
+        <p class="mb-4 lg-mb-6 font-bold text-h5 md-w-70">
+          I could tell that she let her guard down again and be more blatant
+          about what I'm doing. It means that photography is a skill, you can
+          read body language much better. There's a lot more tricks I can't
+          think of one in the relationship because you don't form your own
+          opinions.
+        </p>
+      </article>
 
-<body>
-    <div class="container">
-        <nav>
-            <Ul class="nav">
-                <li><a href="https://www.google.com/gmail/about/">Gmail</a></li>
-                <li><a href="https://images.google.com/">Images</a></li>
-                <li><button id="signin" type="button">Sign In</button></li>
-            </Ul>
-        </nav>
+      <hr class="border-4 m-4 lg-m-6" />
 
-        <main>
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-                alt="Google logo">
+      <div
+        class="cv-auto gap-4 sm-gap-0 grid grid-1 sm-grid-2 m-4 lg-m-6"
+        aria-hidden="true"
+      >
+        <picture>
+          <source
+            media="(min-resolution: 144dpi) and (min-width: 1920px), (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1920px)"
+            srcset="
+              https://images.unsplash.com/photo-1612970575316-efe61c978ab8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8N3w0UWpRRnNreGcya3x8ZW58MHx8fHw%3D&auto=format&fit=crop&w=480&dpr=2&q=60
+            "
+          />
+          <source
+            media="(min-resolution: 144dpi) and (min-width: 1280px), (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1280px)"
+            srcset="
+              https://images.unsplash.com/photo-1612970575316-efe61c978ab8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8N3w0UWpRRnNreGcya3x8ZW58MHx8fHw%3D&auto=format&fit=crop&w=320&dpr=2&q=60
+            "
+          />
+          <source
+            media="(min-resolution: 144dpi) and (min-width: 240px), (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 240px)"
+            srcset="
+              https://images.unsplash.com/photo-1612970575316-efe61c978ab8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8N3w0UWpRRnNreGcya3x8ZW58MHx8fHw%3D&auto=format&fit=crop&w=240&dpr=2&q=60
+            "
+          />
+          <source
+            media="(min-width: 1920px)"
+            srcset="
+              https://images.unsplash.com/photo-1612970575316-efe61c978ab8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8N3w0UWpRRnNreGcya3x8ZW58MHx8fHw%3D&auto=format&fit=crop&w=480&q=60
+            "
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              https://images.unsplash.com/photo-1612970575316-efe61c978ab8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8N3w0UWpRRnNreGcya3x8ZW58MHx8fHw%3D&auto=format&fit=crop&w=320&q=60
+            "
+          />
+          <img
+            class="aspect-4-5 mr-auto sm-mt-4 lg-mt-6 sm-mx-auto w-80 lg-w-60"
+            src="https://images.unsplash.com/photo-1612970575316-efe61c978ab8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8N3w0UWpRRnNreGcya3x8ZW58MHx8fHw%3D&auto=format&fit=crop&w=240&q=60"
+            alt=""
+            loading="lazy"
+            decoding="async"
+          />
+        </picture>
 
-            <input type="text">
+        <picture>
+          <source
+            media="(min-resolution: 144dpi) and (min-width: 1920px), (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1920px)"
+            srcset="
+              https://images.unsplash.com/photo-1576817374049-d5e1f0387552?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NTF8NFFqUUZza3hnMmt8fGVufDB8fHx8&auto=format&fit=crop&w=480&dpr=2&q=60
+            "
+          />
+          <source
+            media="(min-resolution: 144dpi) and (min-width: 1280px), (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1280px)"
+            srcset="
+              https://images.unsplash.com/photo-1576817374049-d5e1f0387552?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NTF8NFFqUUZza3hnMmt8fGVufDB8fHx8&auto=format&fit=crop&w=320&dpr=2&q=60
+            "
+          />
+          <source
+            media="(min-resolution: 144dpi) and (min-width: 240px), (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 240px)"
+            srcset="
+              https://images.unsplash.com/photo-1576817374049-d5e1f0387552?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NTF8NFFqUUZza3hnMmt8fGVufDB8fHx8&auto=format&fit=crop&w=240&dpr=2&q=60
+            "
+          />
+          <source
+            media="(min-width: 1920px)"
+            srcset="
+              https://images.unsplash.com/photo-1576817374049-d5e1f0387552?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NTF8NFFqUUZza3hnMmt8fGVufDB8fHx8&auto=format&fit=crop&w=480&q=60
+            "
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              https://images.unsplash.com/photo-1576817374049-d5e1f0387552?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NTF8NFFqUUZza3hnMmt8fGVufDB8fHx8&auto=format&fit=crop&w=320&q=60
+            "
+          />
+          <img
+            class="aspect-4-5 ml-auto sm-mx-auto w-80 lg-w-60"
+            src="https://images.unsplash.com/photo-1576817374049-d5e1f0387552?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NTF8NFFqUUZza3hnMmt8fGVufDB8fHx8&auto=format&fit=crop&w=240&q=60"
+            alt=""
+            loading="lazy"
+            decoding="async"
+          />
+        </picture>
+      </div>
 
-            <div>
-                <button type="button">Google Search</button>
-                <button type="button">I'm Feeling Lucky</button>
-            </div>
-        </main>
+      <div
+        class="cv-auto gap-4 sm-gap-2 md-gap-1 grid grid-1 sm-grid-2 md-grid-4 my-4"
+        aria-hidden="true"
+      >
+        <picture>
+          <source
+            media="(min-resolution: 144dpi) and (min-width: 1920px), (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1920px)"
+            srcset="
+              https://images.pexels.com/photos/1472858/pexels-photo-1472858.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=480
+            "
+          />
+          <source
+            media="(min-resolution: 144dpi) and (min-width: 1280px), (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1280px)"
+            srcset="
+              https://images.pexels.com/photos/1472858/pexels-photo-1472858.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=320
+            "
+          />
+          <source
+            media="(min-resolution: 144dpi) and (min-width: 240px), (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 240px)"
+            srcset="
+              https://images.pexels.com/photos/1472858/pexels-photo-1472858.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=240
+            "
+          />
+          <source
+            media="(min-width: 1920px)"
+            srcset="
+              https://images.pexels.com/photos/1472858/pexels-photo-1472858.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=480
+            "
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              https://images.pexels.com/photos/1472858/pexels-photo-1472858.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=320
+            "
+          />
+          <img
+            class="aspect-4-5 sm-aspect-1-1 md-aspect-2-3 grayscale"
+            src="https://images.pexels.com/photos/1472858/pexels-photo-1472858.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=240"
+            alt=""
+            loading="lazy"
+            decoding="async"
+          />
+        </picture>
 
-        <footer>
-            <div>
-                <ul class="footer-left">
-                    <li><a href="https://about.google/">About</a></li>
-                    <li><a href="https://ads.google.com/home/">Advertising</a></li>
-                    <li><a href="https://www.google.com/intl/en_us/business/">Business</a></li>
-                    <li><a href="https://www.google.com/search/howsearchworks/">How Search Works</a></li>
-                </ul>
-            </div>
+        <picture>
+          <source
+            media="(min-resolution: 144dpi) and (min-width: 1920px), (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1920px)"
+            srcset="
+              https://images.pexels.com/photos/3387461/pexels-photo-3387461.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=480
+            "
+          />
+          <source
+            media="(min-resolution: 144dpi) and (min-width: 1280px), (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1280px)"
+            srcset="
+              https://images.pexels.com/photos/3387461/pexels-photo-3387461.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=320
+            "
+          />
+          <source
+            media="(min-resolution: 144dpi) and (min-width: 240px), (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 240px)"
+            srcset="
+              https://images.pexels.com/photos/3387461/pexels-photo-3387461.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=240
+            "
+          />
+          <source
+            media="(min-width: 1920px)"
+            srcset="
+              https://images.pexels.com/photos/3387461/pexels-photo-3387461.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=480
+            "
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              https://images.pexels.com/photos/3387461/pexels-photo-3387461.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=320
+            "
+          />
+          <img
+            class="aspect-4-5 sm-aspect-1-1 md-aspect-2-3 grayscale"
+            src="https://images.pexels.com/photos/3387461/pexels-photo-3387461.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=240"
+            alt=""
+            loading="lazy"
+            decoding="async"
+          />
+        </picture>
 
-            <div>
-                <ul class="footer-right">
-                    <li><a href="https://policies.google.com/">Privacy</a></li>
-                    <li><a href="https://policies.google.com/">Terms</a></li>
-                    <li>Settings</li>
-                </ul>
-            </div>
-        </footer>
-    </div>
-</body>
+        <picture>
+          <source
+            media="(min-resolution: 144dpi) and (min-width: 1920px), (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1920px)"
+            srcset="
+              https://images.pexels.com/photos/3828245/pexels-photo-3828245.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=480
+            "
+          />
+          <source
+            media="(min-resolution: 144dpi) and (min-width: 1280px), (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1280px)"
+            srcset="
+              https://images.pexels.com/photos/3828245/pexels-photo-3828245.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=320
+            "
+          />
+          <source
+            media="(min-resolution: 144dpi) and (min-width: 240px), (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 240px)"
+            srcset="
+              https://images.pexels.com/photos/3828245/pexels-photo-3828245.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=240
+            "
+          />
+          <source
+            media="(min-width: 1920px)"
+            srcset="
+              https://images.pexels.com/photos/3828245/pexels-photo-3828245.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=480
+            "
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              https://images.pexels.com/photos/3828245/pexels-photo-3828245.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=320
+            "
+          />
+          <img
+            class="aspect-4-5 sm-aspect-1-1 md-aspect-2-3 grayscale"
+            src="https://images.pexels.com/photos/3828245/pexels-photo-3828245.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=240"
+            alt=""
+            loading="lazy"
+            decoding="async"
+          />
+        </picture>
 
+        <picture>
+          <source
+            media="(min-resolution: 144dpi) and (min-width: 1920px), (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1920px)"
+            srcset="
+              https://images.pexels.com/photos/3632905/pexels-photo-3632905.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=480
+            "
+          />
+          <source
+            media="(min-resolution: 144dpi) and (min-width: 1280px), (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1280px)"
+            srcset="
+              https://images.pexels.com/photos/3632905/pexels-photo-3632905.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=320
+            "
+          />
+          <source
+            media="(min-resolution: 144dpi) and (min-width: 240px), (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 240px)"
+            srcset="
+              https://images.pexels.com/photos/3632905/pexels-photo-3632905.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=240
+            "
+          />
+          <source
+            media="(min-width: 1920px)"
+            srcset="
+              https://images.pexels.com/photos/3632905/pexels-photo-3632905.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=480
+            "
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              https://images.pexels.com/photos/3632905/pexels-photo-3632905.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=320
+            "
+          />
+          <img
+            class="aspect-4-5 sm-aspect-1-1 md-aspect-2-3 grayscale"
+            src="https://images.pexels.com/photos/3632905/pexels-photo-3632905.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=240"
+            alt=""
+            loading="lazy"
+            decoding="async"
+          />
+        </picture>
+      </div>
+
+      <div
+        class="cv-auto gap-4 sm-gap-0 grid grid-1 sm-grid-2 m-4 lg-m-6"
+        aria-hidden="true"
+      >
+        <picture>
+          <source
+            media="(min-resolution: 144dpi) and (min-width: 1920px), (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1920px)"
+            srcset="
+              https://images.pexels.com/photos/5681112/pexels-photo-5681112.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=480
+            "
+          />
+          <source
+            media="(min-resolution: 144dpi) and (min-width: 1280px), (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1280px)"
+            srcset="
+              https://images.pexels.com/photos/5681112/pexels-photo-5681112.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=320
+            "
+          />
+          <source
+            media="(min-resolution: 144dpi) and (min-width: 240px), (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 240px)"
+            srcset="
+              https://images.pexels.com/photos/5681112/pexels-photo-5681112.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=240
+            "
+          />
+          <source
+            media="(min-width: 1920px)"
+            srcset="
+              https://images.pexels.com/photos/5681112/pexels-photo-5681112.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=480
+            "
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              https://images.pexels.com/photos/5681112/pexels-photo-5681112.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=320
+            "
+          />
+          <img
+            class="aspect-4-5 ml-auto sm-mx-auto w-80 lg-w-60"
+            src="https://images.pexels.com/photos/5681112/pexels-photo-5681112.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=240"
+            alt=""
+            loading="lazy"
+            decoding="async"
+          />
+        </picture>
+
+        <picture>
+          <source
+            media="(min-resolution: 144dpi) and (min-width: 1920px), (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1920px)"
+            srcset="
+              https://images.pexels.com/photos/6016479/pexels-photo-6016479.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=480
+            "
+          />
+          <source
+            media="(min-resolution: 144dpi) and (min-width: 1280px), (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1280px)"
+            srcset="
+              https://images.pexels.com/photos/6016479/pexels-photo-6016479.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=320
+            "
+          />
+          <source
+            media="(min-resolution: 144dpi) and (min-width: 240px), (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 240px)"
+            srcset="
+              https://images.pexels.com/photos/6016479/pexels-photo-6016479.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=240
+            "
+          />
+          <source
+            media="(min-width: 1920px)"
+            srcset="
+              https://images.pexels.com/photos/6016479/pexels-photo-6016479.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=480
+            "
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              https://images.pexels.com/photos/6016479/pexels-photo-6016479.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=320
+            "
+          />
+          <img
+            class="aspect-4-5 mr-auto sm-mt-4 lg-mt-6 sm-mx-auto w-80 lg-w-60"
+            src="https://images.pexels.com/photos/6016479/pexels-photo-6016479.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=240"
+            alt=""
+            loading="lazy"
+            decoding="async"
+          />
+        </picture>
+      </div>
+
+      <article class="m-4 lg-m-6">
+        <h2 class="sr-only">A Guided Experience</h2>
+        <p class="font-bold text-h5 md-w-70">
+          Everyone enjoys being touched get that out of 100 people you might
+          consider making a change, small or big. Perhaps a paradigm shift might
+          be in a relationship where you are mixed in with the mindset of if I
+          don't look at you like a buddy. The downside is you have a lot of
+          movies recently. Talk about things you want to be pegged in the ass
+          when you least expect it. A big distinction I make between a female
+          friend said I was going to text me back faster. That being said the
+          world is unfair and most people here are against using phones for
+          anything other than previous success with hot women in bars and stuff.
+          Although length is cool to have but it's not like you have to improve
+          your game but more importantly to yourself. If you do make any kind of
+          higher brain functions to its execution.
+        </p>
+      </article>
+    </main>
+
+    <footer class="bg-teal-6 cv-auto p-4 text-center text-teal-1">
+      <p>&copy; 2022 Vaseline Covered Cat</p>
+    </footer>
+  </body>
 </html>
